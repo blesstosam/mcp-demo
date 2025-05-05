@@ -1,0 +1,30 @@
+{
+  "name": "ai-demo",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "bin": {
+    "weather": "./build/index.js"
+  },
+  "main": "index.js",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js&&chmod 755 build/client.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "dotenv": "^16.4.7",
+    "openai": "^4.87.3",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "typescript": "^5.8.3"
+  }
+}

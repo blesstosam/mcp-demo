@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "weather": {
+      "command": "node",
+      "args": [
+        "/Users/weilei/work/github/ai-demo/build/index.js"
+      ]
+    }
+  }
+}
