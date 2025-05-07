@@ -3,7 +3,7 @@
     "weather": {
       "command": "node",
       "args": [
-        "/Users/weilei/work/github/ai-demo/build/index.js"
+        "/Users/weilei/work/github/mcp-demo/build/index.js"
       ]
     }
   }
